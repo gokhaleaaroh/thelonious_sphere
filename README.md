@@ -2,6 +2,8 @@
 Thelonious Sphere. 
 (AI-assisted code)
 
+https://github.com/user-attachments/assets/04a9f185-d391-414c-bbff-8d4ca32e5da1
+
 Instructions for running
 
 ```
