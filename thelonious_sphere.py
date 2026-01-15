@@ -72,8 +72,11 @@ while not glfw.window_should_close(win):
     glLoadIdentity()
     glTranslatef(0, 0, -3)
 
-    angle = (time.time() - start) * 30
+    curr_time = time.time() - start
+    angle = curr_time * 300
+
     glRotatef(angle, 0, 1, 0)
+    glTranslatef(0, 0, -3*sin(curr_time))
 
     glBindTexture(GL_TEXTURE_2D, texture)
     glBegin(GL_TRIANGLES)
