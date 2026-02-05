@@ -19,3 +19,8 @@ python3 -m venv .venv
 pip install -r requirements.txt
 python3 thelonious_sphere.py
 ```
+$$x = \sin(\varphi)\cos(\theta)$$
+$$y = \cos(\varphi)$$
+$$z = \sin(\varphi)\sin(\theta)$$
+$$u = \frac{\theta}{2\pi}$$
+$$v = \frac{\varphi}{\pi}$$
